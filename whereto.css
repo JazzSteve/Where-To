@@ -32,7 +32,7 @@
 }
 
 .navbar-brand {
-	color: #de8a35;
+	color: #c94904;
 	font-family: 'Montserrat', sans-serif;
 	margin-left: 35px;
 	margin-right: 0;
@@ -50,7 +50,7 @@
     right: 0;
     width: 121px;
     height: 100%;
-    background-color: #de8a35;
+    background-color: #c94904;
 }
 
 #search-button {
@@ -168,9 +168,9 @@
     color: rgba(255,255,255,0.5);
 }
 
-.find-button {
+.find-button button {
 	float: left;
-	background: #de8a35;
+	background: #c94904;
     border: none;
     font-size: 16px;
     color: white;
@@ -187,6 +187,56 @@
 }
 
 /*MEDIA QUERIES*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.find {
+		height: 610px;
+	}
+
+	.find-input {
+		width: 690px;
+		margin-bottom: 20px;
+	}
+
+	.price-input {
+		width: 690px;
+		margin-bottom: 20px;
+	}
+
+	.find-button {
+		display: flex;
+	}
+
+	.find-button button {
+		position: absolute;
+		left: 285px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.find {
+		height: 610px;
+	}
+
+	.find-input {
+		width: 500px;
+		margin-bottom: 20px;
+	}
+
+	.price-input {
+		width: 500px;
+		margin-bottom: 20px;
+	}
+
+	.find-button {
+		display: flex;
+	}
+
+	.find-button button {
+		position: absolute;
+		left: 185px;
+	}
+}
+
 @media (max-width: 991px) {
 	.search {
 		display: none;
@@ -206,6 +256,36 @@
 	.navbar-brand {
 		margin-left: 0;
 		font-size: 17px;
+	}
+
+	.mainnavbar {
+		height: auto;
+	}
+}
+
+
+@media (max-width: 575px) {
+	.find {
+		height: 620px;
+	}
+
+	.find-form {
+		justify-content: center;
+	}
+
+	.find-input {
+		width: 300px;
+		margin-bottom: 20px;
+	}
+
+	.price-input {
+		width: 300px;
+		margin-bottom: 20px;
+	}
+
+	.find-button {
+		display: flex;
+		justify-content: center;
 	}
 }
 
