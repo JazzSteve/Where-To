@@ -100,6 +100,91 @@
 /*NAVIGATION BAR END*/
 
 
+/*Find Section*/
+.find {
+	height: 350px;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background: rgba(0, 0, 26);
+ 	color: white;
+ 	position: relative;
+}
+
+.find img {
+	opacity: 0.2;
+	object-fit: cover;
+	position: absolute;
+}
+
+.find-background {
+	height: 100%; 
+	width: 100%;
+}
+
+.find-header {
+	font-size: 30px;
+	font-weight: 300;
+	padding-top: 30px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.find-form-container {
+	margin-top: 36px;
+	width: 100%;
+}
+
+.find-form {
+	width: 100%;
+	height: 100%;
+	justify-content: space-between;
+}
+
+.find-item label {
+	float: left;
+	margin-bottom: 7px;
+}
+
+.find-input {
+	height: 56px;
+	width: 292px;
+	padding-left: 20px;
+	border: solid 2px rgba(255,255,255,0.5);
+    background: transparent;
+    color: rgba(255,255,255,0.5);
+}
+
+#find-destination {
+	color: white;
+}
+
+.price-input {
+	height: 56px;
+	width: 100px;
+	padding-left: 20px;
+	border: solid 2px rgba(255,255,255,0.5);
+    background: transparent;
+    color: rgba(255,255,255,0.5);
+}
+
+.find-button {
+	float: left;
+	background: #de8a35;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.dropdown-item-select {
+	cursor: pointer;
+    font-size: 15px;
+    color: #939393 !important;
+}
 
 /*MEDIA QUERIES*/
 @media (max-width: 991px) {
@@ -128,5 +213,13 @@
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 1rem;
 		padding-left: 1rem;
+	}
+}
+
+@media (min-width: 576px) {
+	.form-inline .form-control {
+	    display: inline-block;
+	    width: 292px;
+	    vertical-align: middle;
 	}
 }
