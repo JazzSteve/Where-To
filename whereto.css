@@ -187,10 +187,6 @@
 }
 
 /*ABOUT SECTION*/
-.about-section {
-	height: 200px;
-}
-
 .about-img {
 	padding-left: 0;
 }
@@ -214,7 +210,7 @@ hr {
 
 .about-text p {
 	line-height: 2;
-	color: #999c9e;
+	color: #888b8c;
 }
 
 .about-text .p1 {
@@ -223,6 +219,32 @@ hr {
 
 .about-text .p2 {
 	margin-top: 35px;
+}
+
+/*SERVICES SECTION*/
+.services-section {
+	text-align: center;
+}
+
+.services-header h2 {
+	color: #131a2f;
+	margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.services-section img {
+	border-radius: 50%;
+	height: 165px;
+	width: 208px;
+}
+
+.services-section h3 {
+	font-size: 26px;
+}
+
+.services-section p {
+	color: #888b8c;
+	margin-bottom: 30px;
 }
 
 
