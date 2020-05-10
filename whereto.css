@@ -227,7 +227,7 @@ hr {
 }
 
 .services-header h2 {
-	color: #131a2f;
+	color: #c94904;
 	margin-top: 35px;
     margin-bottom: 30px;
 }
@@ -247,7 +247,29 @@ hr {
 	margin-bottom: 30px;
 }
 
+/*DESTINATIONS SECTION*/
+.destination-section h2 {
+	color: #c94904;
+	margin-top: 20px
+}
 
+.destination-section img {
+	margin-top: 15px;
+}
+
+.destination-section p {
+	color: #525354;
+	font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.destination-section h5 {
+	color: #131a2f;
+}
+
+.destination-section img:hover {
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /*MEDIA QUERIES*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -272,6 +294,10 @@ hr {
 	.find-button button {
 		position: absolute;
 		left: 285px;
+	}
+
+	.destination-section img {
+		height: 400px;
 	}
 }
 
@@ -365,6 +391,14 @@ hr {
 
 	hr {
 		display: none;
+	}
+
+	.destination-section img {
+		height: 400px;
+	}
+
+	.destination {
+		text-align: center;
 	}
 }
 
