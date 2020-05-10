@@ -506,6 +506,37 @@ hr {
 	.contact-1 h3 {
 		text-align: center;
 	}
+
+	.site-footer {
+		text-align: center;
+		padding-top: 0;
+	}
+
+	.footer-links {
+		padding-left: 0;
+	}
+
+	.footer-brand {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.site-footer ul {
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.facebook i {
+		color: #2459ad;
+	}
+
+	.twitter i {
+		color: #689ced;
+	}
+
+	.instagram i {
+		color: #f0295e;
+	}
 }
 
 
@@ -531,6 +562,15 @@ hr {
 	.find-button {
 		display: flex;
 		justify-content: center;
+	}
+
+	.contact-1 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.contact-1 p {
+		width: 200px;
 	}
 }
 
