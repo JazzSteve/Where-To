@@ -545,7 +545,7 @@ hr {
 
 @media (max-width: 575px) {
 	.find {
-		height: 620px;
+		height: 100%;
 	}
 
 	.find-form {
@@ -565,6 +565,7 @@ hr {
 	.find-button {
 		display: flex;
 		justify-content: center;
+		margin-bottom: 20px;
 	}
 
 	.contact-1 {
