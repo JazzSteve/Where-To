@@ -364,7 +364,7 @@ hr {
 	color: #f0295e;
 }
 
-.copright-text {
+.copyright-text {
 	margin: 0;
 }
 
@@ -575,6 +575,7 @@ hr {
 
 	.contact-1 p {
 		width: 200px;
+		margin-left: -20px;
 	}
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 1rem;
