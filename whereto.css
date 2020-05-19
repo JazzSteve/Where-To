@@ -313,7 +313,6 @@ hr {
 
 .footer-brand {
 	font-family: 'Montserrat', sans-serif;
-	color: #c94904;
 }
 
 .site-footer h6 {
@@ -321,6 +320,10 @@ hr {
 	font-size:16px;
 	text-transform:uppercase;
 	letter-spacing:2px;
+}
+
+.footer-brand h6 {
+	color: #c94904;
 }
 
 .site-footer hr {
@@ -572,9 +575,6 @@ hr {
 	.contact-1 p {
 		width: 200px;
 	}
-}
-
-@media (min-width: 768px) {
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 1rem;
 		padding-left: 1rem;
