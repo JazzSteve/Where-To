@@ -224,6 +224,8 @@ hr {
 /*SERVICES SECTION*/
 .services-section {
 	text-align: center;
+	background-color: #fcf2e8;
+    margin-top: 1em;
 }
 
 .services-header h2 {
@@ -275,6 +277,8 @@ hr {
 /*CONTACT SECTION*/
 .contact-section {
 	padding-top: 7rem;
+	background-color: #fcf2e8;
+	margin-top: 1em;
 }
 
 .contact-1 h3 {
